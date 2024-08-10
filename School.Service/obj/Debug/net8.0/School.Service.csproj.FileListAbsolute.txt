@@ -1,0 +1,17 @@
+D:\ASP.NET\Projects\School\School.Service\bin\Debug\net8.0\School.Service.deps.json
+D:\ASP.NET\Projects\School\School.Service\bin\Debug\net8.0\School.Service.dll
+D:\ASP.NET\Projects\School\School.Service\bin\Debug\net8.0\School.Service.pdb
+D:\ASP.NET\Projects\School\School.Service\bin\Debug\net8.0\School.Data.dll
+D:\ASP.NET\Projects\School\School.Service\bin\Debug\net8.0\School.Infrustructure.dll
+D:\ASP.NET\Projects\School\School.Service\bin\Debug\net8.0\School.Data.pdb
+D:\ASP.NET\Projects\School\School.Service\bin\Debug\net8.0\School.Infrustructure.pdb
+D:\ASP.NET\Projects\School\School.Service\obj\Debug\net8.0\School.Service.csproj.AssemblyReference.cache
+D:\ASP.NET\Projects\School\School.Service\obj\Debug\net8.0\School.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.NET\Projects\School\School.Service\obj\Debug\net8.0\School.Service.AssemblyInfoInputs.cache
+D:\ASP.NET\Projects\School\School.Service\obj\Debug\net8.0\School.Service.AssemblyInfo.cs
+D:\ASP.NET\Projects\School\School.Service\obj\Debug\net8.0\School.Service.csproj.CoreCompileInputs.cache
+D:\ASP.NET\Projects\School\School.Service\obj\Debug\net8.0\School.S.41437F4E.Up2Date
+D:\ASP.NET\Projects\School\School.Service\obj\Debug\net8.0\School.Service.dll
+D:\ASP.NET\Projects\School\School.Service\obj\Debug\net8.0\refint\School.Service.dll
+D:\ASP.NET\Projects\School\School.Service\obj\Debug\net8.0\School.Service.pdb
+D:\ASP.NET\Projects\School\School.Service\obj\Debug\net8.0\ref\School.Service.dll

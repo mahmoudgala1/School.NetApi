@@ -1,0 +1,15 @@
+D:\ASP.NET\Projects\School\School.Infrustructure\bin\Debug\net8.0\School.Infrustructure.deps.json
+D:\ASP.NET\Projects\School\School.Infrustructure\bin\Debug\net8.0\School.Infrustructure.dll
+D:\ASP.NET\Projects\School\School.Infrustructure\bin\Debug\net8.0\School.Infrustructure.pdb
+D:\ASP.NET\Projects\School\School.Infrustructure\bin\Debug\net8.0\School.Data.dll
+D:\ASP.NET\Projects\School\School.Infrustructure\bin\Debug\net8.0\School.Data.pdb
+D:\ASP.NET\Projects\School\School.Infrustructure\obj\Debug\net8.0\School.Infrustructure.csproj.AssemblyReference.cache
+D:\ASP.NET\Projects\School\School.Infrustructure\obj\Debug\net8.0\School.Infrustructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.NET\Projects\School\School.Infrustructure\obj\Debug\net8.0\School.Infrustructure.AssemblyInfoInputs.cache
+D:\ASP.NET\Projects\School\School.Infrustructure\obj\Debug\net8.0\School.Infrustructure.AssemblyInfo.cs
+D:\ASP.NET\Projects\School\School.Infrustructure\obj\Debug\net8.0\School.Infrustructure.csproj.CoreCompileInputs.cache
+D:\ASP.NET\Projects\School\School.Infrustructure\obj\Debug\net8.0\School.I.DB20CE5E.Up2Date
+D:\ASP.NET\Projects\School\School.Infrustructure\obj\Debug\net8.0\School.Infrustructure.dll
+D:\ASP.NET\Projects\School\School.Infrustructure\obj\Debug\net8.0\refint\School.Infrustructure.dll
+D:\ASP.NET\Projects\School\School.Infrustructure\obj\Debug\net8.0\School.Infrustructure.pdb
+D:\ASP.NET\Projects\School\School.Infrustructure\obj\Debug\net8.0\ref\School.Infrustructure.dll

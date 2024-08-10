@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "School.Api.Controllers.StudentController",
+    "Method": "GetStudentByIdAsync",
+    "RelativePath": "api/Student/Api/V1/Student/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "School.Api.Controllers.StudentController",
+    "Method": "DeleteStudentAsync",
+    "RelativePath": "api/Student/Api/V1/Student/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "School.Api.Controllers.StudentController",
+    "Method": "AddStudentAsync",
+    "RelativePath": "api/Student/Api/V1/Student/AddStudent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "student",
+        "Type": "School.Core.Features.Students.Commands.Models.AddStudentCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "School.Api.Controllers.StudentController",
+    "Method": "EditStudentAsync",
+    "RelativePath": "api/Student/Api/V1/Student/EditStudent",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "student",
+        "Type": "School.Core.Features.Students.Commands.Models.EditStudentCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "School.Api.Controllers.StudentController",
+    "Method": "GetStudentsListAsync",
+    "RelativePath": "api/Student/Api/V1/Student/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

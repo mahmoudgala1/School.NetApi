@@ -37,8 +37,8 @@ public class StudentCommandHandler : ResponseHandler
     public async Task<Response<string>> Handle(EditStudentCommand request, CancellationToken cancellationToken)
     {
         var student = await _studentService.GetStudentByIdAsync(request.Id);
-        if (student is null) return NotFound<string>("Student Is Not Found");
-        var studentMapper = _mapper.Map<Student>(request);
+        if (student is null) return NotFound<string>();
+        var studentMapper = _mapper.Map(request, student);
         var result = await _studentService.EditStudentAsync(studentMapper);
         return Success("Edit Successfully");
     }

@@ -1,0 +1,12 @@
+D:\Github_Projects\School.NetApi\School.Data\bin\Release\net8.0\School.Data.deps.json
+D:\Github_Projects\School.NetApi\School.Data\bin\Release\net8.0\School.Data.dll
+D:\Github_Projects\School.NetApi\School.Data\bin\Release\net8.0\School.Data.pdb
+D:\Github_Projects\School.NetApi\School.Data\obj\Release\net8.0\School.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github_Projects\School.NetApi\School.Data\obj\Release\net8.0\School.Data.AssemblyInfoInputs.cache
+D:\Github_Projects\School.NetApi\School.Data\obj\Release\net8.0\School.Data.AssemblyInfo.cs
+D:\Github_Projects\School.NetApi\School.Data\obj\Release\net8.0\School.Data.csproj.CoreCompileInputs.cache
+D:\Github_Projects\School.NetApi\School.Data\obj\Release\net8.0\School.Data.sourcelink.json
+D:\Github_Projects\School.NetApi\School.Data\obj\Release\net8.0\School.Data.dll
+D:\Github_Projects\School.NetApi\School.Data\obj\Release\net8.0\refint\School.Data.dll
+D:\Github_Projects\School.NetApi\School.Data\obj\Release\net8.0\School.Data.pdb
+D:\Github_Projects\School.NetApi\School.Data\obj\Release\net8.0\ref\School.Data.dll

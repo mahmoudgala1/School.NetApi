@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ASP.NET\\Projects\\School\\School.Api\\School.Api.csproj": {}
+    "D:\\Github_Projects\\School.NetApi\\School.Api\\School.Api.csproj": {}
   },
   "projects": {
-    "D:\\ASP.NET\\Projects\\School\\School.Api\\School.Api.csproj": {
+    "D:\\Github_Projects\\School.NetApi\\School.Api\\School.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASP.NET\\Projects\\School\\School.Api\\School.Api.csproj",
+        "projectUniqueName": "D:\\Github_Projects\\School.NetApi\\School.Api\\School.Api.csproj",
         "projectName": "School.Api",
-        "projectPath": "D:\\ASP.NET\\Projects\\School\\School.Api\\School.Api.csproj",
+        "projectPath": "D:\\Github_Projects\\School.NetApi\\School.Api\\School.Api.csproj",
         "packagesPath": "C:\\Users\\mg884\\.nuget\\packages\\",
-        "outputPath": "D:\\ASP.NET\\Projects\\School\\School.Api\\obj\\",
+        "outputPath": "D:\\Github_Projects\\School.NetApi\\School.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mg884\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\ASP.NET\\Projects\\School\\School.Core\\School.Core.csproj": {
-                "projectPath": "D:\\ASP.NET\\Projects\\School\\School.Core\\School.Core.csproj"
+              "D:\\Github_Projects\\School.NetApi\\School.Core\\School.Core.csproj": {
+                "projectPath": "D:\\Github_Projects\\School.NetApi\\School.Core\\School.Core.csproj"
               }
             }
           }
@@ -43,7 +43,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -80,18 +80,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.6.24328.19/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ASP.NET\\Projects\\School\\School.Core\\School.Core.csproj": {
+    "D:\\Github_Projects\\School.NetApi\\School.Core\\School.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASP.NET\\Projects\\School\\School.Core\\School.Core.csproj",
+        "projectUniqueName": "D:\\Github_Projects\\School.NetApi\\School.Core\\School.Core.csproj",
         "projectName": "School.Core",
-        "projectPath": "D:\\ASP.NET\\Projects\\School\\School.Core\\School.Core.csproj",
+        "projectPath": "D:\\Github_Projects\\School.NetApi\\School.Core\\School.Core.csproj",
         "packagesPath": "C:\\Users\\mg884\\.nuget\\packages\\",
-        "outputPath": "D:\\ASP.NET\\Projects\\School\\School.Core\\obj\\",
+        "outputPath": "D:\\Github_Projects\\School.NetApi\\School.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mg884\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -109,11 +109,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\ASP.NET\\Projects\\School\\School.Data\\School.Data.csproj": {
-                "projectPath": "D:\\ASP.NET\\Projects\\School\\School.Data\\School.Data.csproj"
+              "D:\\Github_Projects\\School.NetApi\\School.Data\\School.Data.csproj": {
+                "projectPath": "D:\\Github_Projects\\School.NetApi\\School.Data\\School.Data.csproj"
               },
-              "D:\\ASP.NET\\Projects\\School\\School.Service\\School.Service.csproj": {
-                "projectPath": "D:\\ASP.NET\\Projects\\School\\School.Service\\School.Service.csproj"
+              "D:\\Github_Projects\\School.NetApi\\School.Service\\School.Service.csproj": {
+                "projectPath": "D:\\Github_Projects\\School.NetApi\\School.Service\\School.Service.csproj"
               }
             }
           }
@@ -126,7 +126,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -152,6 +152,10 @@
             "Microsoft.AspNetCore.Http.Abstractions": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Localization.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.8, )"
             }
           },
           "imports": [
@@ -170,18 +174,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.6.24328.19/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ASP.NET\\Projects\\School\\School.Data\\School.Data.csproj": {
+    "D:\\Github_Projects\\School.NetApi\\School.Data\\School.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASP.NET\\Projects\\School\\School.Data\\School.Data.csproj",
+        "projectUniqueName": "D:\\Github_Projects\\School.NetApi\\School.Data\\School.Data.csproj",
         "projectName": "School.Data",
-        "projectPath": "D:\\ASP.NET\\Projects\\School\\School.Data\\School.Data.csproj",
+        "projectPath": "D:\\Github_Projects\\School.NetApi\\School.Data\\School.Data.csproj",
         "packagesPath": "C:\\Users\\mg884\\.nuget\\packages\\",
-        "outputPath": "D:\\ASP.NET\\Projects\\School\\School.Data\\obj\\",
+        "outputPath": "D:\\Github_Projects\\School.NetApi\\School.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mg884\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -209,7 +213,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -231,18 +235,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.6.24328.19/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ASP.NET\\Projects\\School\\School.Infrustructure\\School.Infrustructure.csproj": {
+    "D:\\Github_Projects\\School.NetApi\\School.Infrustructure\\School.Infrustructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASP.NET\\Projects\\School\\School.Infrustructure\\School.Infrustructure.csproj",
+        "projectUniqueName": "D:\\Github_Projects\\School.NetApi\\School.Infrustructure\\School.Infrustructure.csproj",
         "projectName": "School.Infrustructure",
-        "projectPath": "D:\\ASP.NET\\Projects\\School\\School.Infrustructure\\School.Infrustructure.csproj",
+        "projectPath": "D:\\Github_Projects\\School.NetApi\\School.Infrustructure\\School.Infrustructure.csproj",
         "packagesPath": "C:\\Users\\mg884\\.nuget\\packages\\",
-        "outputPath": "D:\\ASP.NET\\Projects\\School\\School.Infrustructure\\obj\\",
+        "outputPath": "D:\\Github_Projects\\School.NetApi\\School.Infrustructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mg884\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -260,8 +264,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\ASP.NET\\Projects\\School\\School.Data\\School.Data.csproj": {
-                "projectPath": "D:\\ASP.NET\\Projects\\School\\School.Data\\School.Data.csproj"
+              "D:\\Github_Projects\\School.NetApi\\School.Data\\School.Data.csproj": {
+                "projectPath": "D:\\Github_Projects\\School.NetApi\\School.Data\\School.Data.csproj"
               }
             }
           }
@@ -274,7 +278,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -306,18 +310,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.6.24328.19/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ASP.NET\\Projects\\School\\School.Service\\School.Service.csproj": {
+    "D:\\Github_Projects\\School.NetApi\\School.Service\\School.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASP.NET\\Projects\\School\\School.Service\\School.Service.csproj",
+        "projectUniqueName": "D:\\Github_Projects\\School.NetApi\\School.Service\\School.Service.csproj",
         "projectName": "School.Service",
-        "projectPath": "D:\\ASP.NET\\Projects\\School\\School.Service\\School.Service.csproj",
+        "projectPath": "D:\\Github_Projects\\School.NetApi\\School.Service\\School.Service.csproj",
         "packagesPath": "C:\\Users\\mg884\\.nuget\\packages\\",
-        "outputPath": "D:\\ASP.NET\\Projects\\School\\School.Service\\obj\\",
+        "outputPath": "D:\\Github_Projects\\School.NetApi\\School.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mg884\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -335,11 +339,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\ASP.NET\\Projects\\School\\School.Data\\School.Data.csproj": {
-                "projectPath": "D:\\ASP.NET\\Projects\\School\\School.Data\\School.Data.csproj"
+              "D:\\Github_Projects\\School.NetApi\\School.Data\\School.Data.csproj": {
+                "projectPath": "D:\\Github_Projects\\School.NetApi\\School.Data\\School.Data.csproj"
               },
-              "D:\\ASP.NET\\Projects\\School\\School.Infrustructure\\School.Infrustructure.csproj": {
-                "projectPath": "D:\\ASP.NET\\Projects\\School\\School.Infrustructure\\School.Infrustructure.csproj"
+              "D:\\Github_Projects\\School.NetApi\\School.Infrustructure\\School.Infrustructure.csproj": {
+                "projectPath": "D:\\Github_Projects\\School.NetApi\\School.Infrustructure\\School.Infrustructure.csproj"
               }
             }
           }
@@ -352,7 +356,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -374,7 +378,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.6.24328.19/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

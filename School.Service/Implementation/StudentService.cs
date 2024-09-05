@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using School.Data;
 using School.Data.Models;
 using School.Infrustructure.Interfaces;
 using School.Service.Interfaces;
@@ -68,6 +69,34 @@ public class StudentService : IStudentService
             await trans.RollbackAsync();
             return "Falid";
         }
+    }
+
+    public IQueryable<Student> GetStudentsQueryable()
+    {
+        return _studentRepository.GetTableNoTracking().Include(s => s.Department).AsQueryable();
+    }
+
+    public IQueryable<Student> FilterStudentPaginatedQueryable(StudnetOrderingEnum oredr, string search)
+    {
+        var querable = _studentRepository.GetTableNoTracking().Include(s => s.Department).AsQueryable();
+        if (search is not null)
+            querable = querable.Where(s => s.Name.Contains(search) || s.Address.Contains(search));
+        switch (oredr)
+        {
+            case StudnetOrderingEnum.Id:
+                querable = querable.OrderBy(s => s.Id);
+                break;
+            case StudnetOrderingEnum.Name:
+                querable = querable.OrderBy(s => s.Name);
+                break;
+            case StudnetOrderingEnum.Address:
+                querable = querable.OrderBy(s => s.Address);
+                break;
+            case StudnetOrderingEnum.DepartmentName:
+                querable = querable.OrderBy(s => s.Department.Name);
+                break;
+        }
+        return querable;
     }
     #endregion
 

@@ -9,6 +9,7 @@ public static class ModuleInfrustructureDependencies
     {
         services.AddTransient(typeof(IGenericRepositoryAsync<>), typeof(GenericRepositoryAsync<>));
         services.AddTransient<IStudentRepository, StudentRepository>();
+        services.AddTransient<IDepartmentRepository, DepartmentRepository>();
         return services;
     }
 }

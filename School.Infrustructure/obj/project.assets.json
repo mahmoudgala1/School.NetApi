@@ -2770,11 +2770,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ASP.NET\\Projects\\School\\School.Infrustructure\\School.Infrustructure.csproj",
+      "projectUniqueName": "D:\\Github_Projects\\School.NetApi\\School.Infrustructure\\School.Infrustructure.csproj",
       "projectName": "School.Infrustructure",
-      "projectPath": "D:\\ASP.NET\\Projects\\School\\School.Infrustructure\\School.Infrustructure.csproj",
+      "projectPath": "D:\\Github_Projects\\School.NetApi\\School.Infrustructure\\School.Infrustructure.csproj",
       "packagesPath": "C:\\Users\\mg884\\.nuget\\packages\\",
-      "outputPath": "D:\\ASP.NET\\Projects\\School\\School.Infrustructure\\obj\\",
+      "outputPath": "D:\\Github_Projects\\School.NetApi\\School.Infrustructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mg884\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2792,8 +2792,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\ASP.NET\\Projects\\School\\School.Data\\School.Data.csproj": {
-              "projectPath": "D:\\ASP.NET\\Projects\\School\\School.Data\\School.Data.csproj"
+            "D:\\Github_Projects\\School.NetApi\\School.Data\\School.Data.csproj": {
+              "projectPath": "D:\\Github_Projects\\School.NetApi\\School.Data\\School.Data.csproj"
             }
           }
         }
@@ -2806,7 +2806,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2838,60 +2838,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.6.24328.19/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Azure.Identity' 1.10.3 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m5vv-6r4h-3vj9",
-      "libraryId": "Azure.Identity",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Azure.Identity' 1.10.3 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-wvxc-855f-jvrv",
-      "libraryId": "Azure.Identity",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.Identity.Client' 4.56.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m5vv-6r4h-3vj9",
-      "libraryId": "Microsoft.Identity.Client",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1901",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.Identity.Client' 4.56.0 has a known low severity vulnerability, https://github.com/advisories/GHSA-x674-v45j-fwxw",
-      "libraryId": "Microsoft.Identity.Client",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Formats.Asn1' 5.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-447r-wph3-92pm",
-      "libraryId": "System.Formats.Asn1",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

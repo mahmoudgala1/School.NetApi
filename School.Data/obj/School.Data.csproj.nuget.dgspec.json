@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ASP.NET\\Projects\\School\\School.Data\\School.Data.csproj": {}
+    "D:\\Github_Projects\\School.NetApi\\School.Data\\School.Data.csproj": {}
   },
   "projects": {
-    "D:\\ASP.NET\\Projects\\School\\School.Data\\School.Data.csproj": {
+    "D:\\Github_Projects\\School.NetApi\\School.Data\\School.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASP.NET\\Projects\\School\\School.Data\\School.Data.csproj",
+        "projectUniqueName": "D:\\Github_Projects\\School.NetApi\\School.Data\\School.Data.csproj",
         "projectName": "School.Data",
-        "projectPath": "D:\\ASP.NET\\Projects\\School\\School.Data\\School.Data.csproj",
+        "projectPath": "D:\\Github_Projects\\School.NetApi\\School.Data\\School.Data.csproj",
         "packagesPath": "C:\\Users\\mg884\\.nuget\\packages\\",
-        "outputPath": "D:\\ASP.NET\\Projects\\School\\School.Data\\obj\\",
+        "outputPath": "D:\\Github_Projects\\School.NetApi\\School.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mg884\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,7 +39,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.6.24328.19/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -10,9 +10,15 @@ public static class Router
     {
         public const string Prefix = $"{Rule}Student/";
         public const string List = $"{Prefix}List";
+        public const string Paginated = $"{Prefix}Paginated";
         public const string GetById = $"{Prefix}{SingleRoute}";
         public const string Add = $"{Prefix}AddStudent";
         public const string Edit = $"{Prefix}EditStudent";
         public const string Delete = $"{Prefix}{SingleRoute}";
+    }
+    public static class DepartmentRouting
+    {
+        public const string Prefix = $"{Rule}Department/";
+        public const string GetById = $"{Prefix}{SingleRoute}";
     }
 }

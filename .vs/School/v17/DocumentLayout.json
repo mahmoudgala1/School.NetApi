@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ASP.NET\\Projects\\School\\",
+  "WorkspaceRootPath": "D:\\Github_Projects\\School.NetApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{45221C1C-4397-479A-9D9B-E0DF9A2A9A02}|School.Api\\School.Api.csproj|d:\\asp.net\\projects\\school\\school.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45221C1C-4397-479A-9D9B-E0DF9A2A9A02}|School.Api\\School.Api.csproj|solutionrelative:school.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{45221C1C-4397-479A-9D9B-E0DF9A2A9A02}|School.Api\\School.Api.csproj|d:\\github_projects\\school.netapi\\school.api\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45221C1C-4397-479A-9D9B-E0DF9A2A9A02}|School.Api\\School.Api.csproj|solutionrelative:school.api\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F6E9EA-B987-4077-A939-D99591E17DE3}|School.Data\\School.Data.csproj|d:\\github_projects\\school.netapi\\school.data\\appmetadata\\router.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24F6E9EA-B987-4077-A939-D99591E17DE3}|School.Data\\School.Data.csproj|solutionrelative:school.data\\appmetadata\\router.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BAA05A1-6EEE-4052-B0BD-8209603188E2}|School.Core\\School.Core.csproj|d:\\github_projects\\school.netapi\\school.core\\features\\departments\\queries\\handlers\\departmentqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BAA05A1-6EEE-4052-B0BD-8209603188E2}|School.Core\\School.Core.csproj|solutionrelative:school.core\\features\\departments\\queries\\handlers\\departmentqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,25 +22,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ASP.NET\\Projects\\School\\School.Api\\Program.cs",
-              "RelativeDocumentMoniker": "School.Api\\Program.cs",
-              "ToolTip": "D:\\ASP.NET\\Projects\\School\\School.Api\\Program.cs",
-              "RelativeToolTip": "School.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T21:12:48.794Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Router.cs",
+              "DocumentMoniker": "D:\\Github_Projects\\School.NetApi\\School.Data\\AppMetaData\\Router.cs",
+              "RelativeDocumentMoniker": "School.Data\\AppMetaData\\Router.cs",
+              "ToolTip": "D:\\Github_Projects\\School.NetApi\\School.Data\\AppMetaData\\Router.cs",
+              "RelativeToolTip": "School.Data\\AppMetaData\\Router.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T13:53:52.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "D:\\Github_Projects\\School.NetApi\\School.Api\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "School.Api\\Controllers\\DepartmentController.cs",
+              "ToolTip": "D:\\Github_Projects\\School.NetApi\\School.Api\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "School.Api\\Controllers\\DepartmentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T13:50:09.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DepartmentQueryHandler.cs",
+              "DocumentMoniker": "D:\\Github_Projects\\School.NetApi\\School.Core\\Features\\Departments\\Queries\\Handlers\\DepartmentQueryHandler.cs",
+              "RelativeDocumentMoniker": "School.Core\\Features\\Departments\\Queries\\Handlers\\DepartmentQueryHandler.cs",
+              "ToolTip": "D:\\Github_Projects\\School.NetApi\\School.Core\\Features\\Departments\\Queries\\Handlers\\DepartmentQueryHandler.cs",
+              "RelativeToolTip": "School.Core\\Features\\Departments\\Queries\\Handlers\\DepartmentQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T12:50:36.39Z"
             }
           ]
         }

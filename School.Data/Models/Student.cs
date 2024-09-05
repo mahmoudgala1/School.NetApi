@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace School.Data.Models;
 public class Student
@@ -21,8 +16,12 @@ public class Student
     public string Address { get; set; }
     [StringLength(11)]
     public string Phone { get; set; }
+
     public int? DepartmentId { get; set; }
     [ForeignKey("DepartmentId")]
+    [InverseProperty("Students")]
     public virtual Department Department { get; set; }
+
+    [InverseProperty("Student")]
     public virtual ICollection<StudentSubject> StudentSubjects { get; set; }
 }
